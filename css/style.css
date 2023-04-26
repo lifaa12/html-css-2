@@ -114,16 +114,41 @@ body{
 	margin-right: 10px;
 }
 .footericon li:hover{
-	transform: scale(1.05);
+	transform: scale(1.1);
 }
 /* index */
-.h-banner{
+.i-banner{
 	width: 1024px;
 	height: 560px;
 	background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/bg_index.png);
 }
-
-
+.i-banner-text{
+	margin: 105px;
+	margin-left: 40px;
+}
+.i-banner-text h2{
+	font-size: 50px;
+	line-height: 80px;
+	color: #00cc99;
+	font-weight: bold;
+	margin-bottom: 45px;
+}
+.i-banner-tc{
+	color: #fff;
+}
+.i-banner-btn{
+	display: block;
+	width: 220px;
+	text-align: center;
+	padding-top: 18px;
+	padding-bottom: 18px;
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	background: #00cc99;
+	border-radius: 5px;
+}
 /* course */
 .c-banner{
 	width: 1024px;
