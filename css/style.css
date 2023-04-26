@@ -51,6 +51,9 @@ table {
 *,*:before,*:after{
     box-sizing: border-box;
   }
+body{
+	font-family: sans-serif;
+}
 .wrap{
 	width: 1024px;
 	margin: 0 auto;
@@ -91,8 +94,28 @@ table {
 	color: #00cc99;
 	border-bottom: 8px solid #00cc99;
 }
-
-
+.footer{
+	display: flex;
+	justify-content: space-between;
+	background: #323228;
+	padding: 35px 40px;
+}
+.footerlogo p{
+	color: #9b9b9b;
+	margin-top: 8px;
+	margin-left: 35px;
+}
+.footericon{
+	display: flex;
+	margin-top: 15px;
+}
+.footericon li{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+.footericon li:hover{
+	transform: scale(1.05);
+}
 /* index */
 .h-banner{
 	width: 1024px;
