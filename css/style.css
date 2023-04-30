@@ -47,6 +47,10 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+img{
+	max-width: 100%;
+	height: auto;
+}
 /* layout */
 *,*:before,*:after{
     box-sizing: border-box;
@@ -55,7 +59,7 @@ body{
 	font-family: sans-serif;
 }
 .wrap{
-	width: 1024px;
+	max-width: 1024px;
 	margin: 0 auto;
 }
 .navbar{
@@ -118,20 +122,22 @@ body{
 }
 /* index */
 .i-banner{
-	width: 1024px;
-	height: 560px;
+	max-width: 1024px;
 	background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/bg_index.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+	padding-bottom: 1%;
 }
 .i-banner-text{
-	margin: 105px;
-	margin-left: 40px;
+	margin: 10% 10% 10% 4%;
 }
 .i-banner-text h2{
 	font-size: 50px;
 	line-height: 80px;
 	color: #00cc99;
 	font-weight: bold;
-	margin-bottom: 45px;
+	margin-bottom: 4%;
 }
 .i-banner-tc{
 	color: #fff;
@@ -149,16 +155,48 @@ body{
 	background: #00cc99;
 	border-radius: 5px;
 }
+@media (max-width: 768px){
+	.i-banner-text h2{
+		font-size: 30px;
+		line-height: 60px;
+	}
+	.i-banner-btn{
+		font-size: 18px;
+		width: 190px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+/* @media (max-width: 430px){
+	.i-banner-text h2{
+		font-size: 30px;
+		line-height: 60px;
+	}
+	.i-banner-btn{
+		font-size: 18px;
+		width: 190px;
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+} */
 /* course */
 .c-banner{
-	width: 1024px;
+	max-width: 1024px;
 	height: 560px;
 	background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/bg_course.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+	padding-bottom: 1%;
 }
 
 /* faq */
 .f-banner{
-	width: 1024px;
+	max-width: 1024px;
 	height: 560px;
 	background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/bg_QA.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 10px;
+	padding-bottom: 1%;
 }
