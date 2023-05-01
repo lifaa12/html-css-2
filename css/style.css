@@ -122,11 +122,12 @@ body{
 }
 /* index */
 .i-banner{
-	max-width: 1024px;
+	/* max-width: 1024px; */
+	/* width: 100%; */
 	background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/bg_index.png);
 	background-size: cover;
 	background-repeat: no-repeat;
-	margin-bottom: 10px;
+	margin-bottom: 60px;
 	padding-bottom: 1%;
 }
 .i-banner-text{
@@ -179,9 +180,61 @@ body{
 		padding-bottom: 15px;
 	}
 } */
+.course{
+	padding-left: 35px;
+	padding-right: 35px;
+}
+.course-title{
+	display: flex;
+	justify-content: space-between;
+}
+.course-title h2{
+	font-size: 40px;
+	color: #00cc99;
+	font-weight: bold;
+}
+.course-title a{
+	display: flex;
+	text-decoration: none;
+	color: #00cc99;
+	padding: 7px 15px;
+	border: 3px solid #00cc99;
+	border-radius: 5px;
+	font-weight: bold;
+	align-items: center;
+}
+.course-title-2{
+	font-size: 20px;
+	color: #9b9b9b;
+	font-weight: normal;
+	margin-left: 15px;
+}
+.course-item{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 35px;
+}
+.course-item li{
+	text-align: center;
+	width: 310px;
+	padding: 15px 25px;
+}
+.course-item h3{
+	font-size: 20px;
+	color: #626262;
+	margin-top: 15px;
+	margin-bottom: 17px;
+	font-weight: bold;
+}
+.course-item p{
+	color: #9b9b9b;
+	line-height: 23px;
+}
+
+
 /* course */
 .c-banner{
-	max-width: 1024px;
+	/* max-width: 1024px; */
 	height: 560px;
 	background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/bg_course.png);
 	background-size: cover;
@@ -192,7 +245,7 @@ body{
 
 /* faq */
 .f-banner{
-	max-width: 1024px;
+	/* max-width: 1024px; */
 	height: 560px;
 	background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/bg_QA.png);
 	background-size: cover;
