@@ -643,20 +643,239 @@ body{
 		line-height: 40px;
 	}
 }
-
-
-
-
-
-
-
 /* faq */
 .f-banner{
-	/* max-width: 1024px; */
-	height: 560px;
+	/* height: 560px; */
 	background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/bg_QA.png);
 	background-size: cover;
 	background-repeat: no-repeat;
 	margin-bottom: 10px;
 	padding-bottom: 1%;
+}
+.f-banner-content{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-top: 10%;
+}
+.f-banner-content h2{
+	font-size: 50px;
+	color: #fff;
+	margin-bottom: 15px;
+}
+.f-banner-content h3{
+	font-size: 25px;
+	color: #00cc99;
+	font-weight: bold;
+	margin-bottom: 50px;
+}
+.f-banner-content form{
+	position: relative;
+	margin-bottom: 18%;
+}
+.f-banner-content form input{
+	width: 620px;
+	height: 50px;
+	border-width: 5px;
+	border-color: transparent;
+	border-radius: 5px;
+}
+.f-banner-content form input:hover{
+	border-color: #00cc99;
+}
+.f-banner-content form a img{
+	position: absolute;
+	right: 0;
+	top: 15px;
+	width: 25px;
+	margin-right: 10px;
+}
+.faq-title-flex{
+	display: flex;
+	align-items: flex-end;
+	margin-bottom: 40px;
+	margin-top: 60px;
+}
+.faq{
+	padding-left: 12%;
+	padding-right: 12%;
+}
+.faq h2{
+	font-size: 35px;
+	color: #00cc99;
+	font-weight: bold;
+}
+.faq h3{
+	font-size: 20px;
+	color: #9b9b9b;
+	margin-left: 20px;
+}
+.faq h4{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.faq p{
+	color: #9b9b9b;
+	line-height: 25px;
+	margin-bottom: 30px;
+	font-weight: bold;
+}
+.faq a{
+	text-decoration: none;
+	color: #00cc99;
+}
+.faq a:hover{
+	color: #01ac81;
+}
+.faq .faq-p-nm{
+	margin-bottom: 8px;
+}
+.faq-item2-q1list{
+	list-style-type: decimal;
+	color: #9b9b9b;
+	font-weight: bold;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	line-height: 25px;
+}
+.faq-item3-q3list{
+	list-style-type: disc;
+	color: #9b9b9b;
+	font-weight: bold;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	line-height: 25px;
+}
+.faq .faq-item3-refundtext{
+	color: #000;
+	margin-bottom: 8px;
+}
+.faq-item3-refundlist{
+	list-style-type: disc;
+	color: #9b9b9b;
+	font-weight: bold;
+	margin-left: 50px;
+	margin-bottom: 30px;
+	line-height: 25px;
+}
+.f-form{
+	display: flex;
+	justify-content: space-between;
+	background: #ebebeb;
+	padding: 12% 4% 5% 4%;
+}
+.f-form h2{
+	font-size: 35px;
+	line-height: 60px;
+	font-weight: bold;
+}
+.f-form form input{
+	display: block;
+	width: 460px;
+	height: 50px;
+	border-color: transparent;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}
+.f-form input, textarea::-webkit-input-placeholder{
+	font-size: 20px;
+	padding-left: 20px;
+}
+.f-form form textarea{
+	width: 460px;
+	height: 205px;
+	resize: none;
+	border-width: 2px;
+	border-color: transparent;
+	border-radius: 5px;
+	margin-bottom: 20px;
+}.f-form textarea:hover{
+	border-color: #00cc99;
+}
+.f-form input:hover{
+	border-color: #00cc99;
+}
+.f-form-btn{
+	display: flex;
+	justify-content: flex-end;
+}
+.f-form .f-form-btn input{
+	width: 140px;
+	background: #00cc99;
+	cursor: pointer;
+	font-size: 25px;
+	color: #fff;
+	font-weight: bold;
+	padding-left: 0;
+}
+.f-form-btn input:hover{
+	background: #05e2ab;
+	border-color: transparent;
+}
+@media (max-width: 768px){
+	.f-banner-content form input{
+		width: 500px;
+	}
+	.f-form{
+		flex-direction: column;
+		align-items: center;
+	}
+	.f-form h2{
+		font-size: 30px;
+		line-height: 50px;
+		margin-bottom: 20px;
+	}
+	.f-form form input{
+		width: 430px;
+	}
+	.f-form form textarea{
+		width: 430px;
+	}
+	.f-form .f-form-btn input{
+		width: 130px;
+	}
+}
+@media (max-width: 430px){
+	.f-banner-content h2{
+		font-size: 30px;
+		margin-bottom: 10px;
+	}
+	.f-banner-content h3{
+		font-size: 20px;
+		margin-bottom: 30px;
+	}
+	.f-banner-content form input{
+		width: 350px;
+		height: 30px;
+		border-width: 3px;
+	}
+	.f-banner-content form a img{
+		top: 3px;
+		width: 20px;
+	}
+	.faq-title-flex{
+		display: block;
+	}
+	.faq h2{
+		margin-bottom: 10px;
+	}
+	.faq h3{
+		margin-left: 0;
+	}
+	.faq h4{
+		line-height: 30px;
+	}
+	.f-form h2{
+		font-size: 25px;
+		line-height: 30px;
+	}
+	.f-form form input{
+		width: 340px;
+	}
+	.f-form form textarea{
+		width: 340px;
+	}
+	.f-form .f-form-btn input{
+		width: 115px;
+	}
 }
