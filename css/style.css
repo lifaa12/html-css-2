@@ -553,7 +553,7 @@ body{
 	background: #00cc99;
 	border-radius: 5px;
 }
-.signup-btn a:hover{
+.signup a:hover{
 	transform: scale(1.1);
 }
 @media (max-width: 768px){
