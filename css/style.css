@@ -645,7 +645,6 @@ body{
 }
 /* faq */
 .f-banner{
-	/* height: 560px; */
 	background-image: url(https://raw.githubusercontent.com/hexschool/HTMLHWSource/master/mutiplePage/bg_QA.png);
 	background-size: cover;
 	background-repeat: no-repeat;
